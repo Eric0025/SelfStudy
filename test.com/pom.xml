@@ -2,9 +2,10 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.leaning.selenium.java</groupId>
-	<artifactId>SeleniumJavaAutomation</artifactId>
+	<groupId>test</groupId>
+	<artifactId>test.com</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+
 
 	<dependencies>
 		<dependency>
@@ -23,18 +24,11 @@
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
-			<version>6.11</version>
+			<version>6.9.10</version>
 			<scope>test</scope>
 		</dependency>
+
 	</dependencies>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.6.1</version>
-			</plugin>
-		</plugins>
-	</build>
+
 </project>
